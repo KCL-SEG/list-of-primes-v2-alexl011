@@ -2,7 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
-    list = []
+    final_list = []
     prime_list = []
     if number_of_primes <= 0:
         raise ValueError('Number in argument must be positive')
@@ -13,5 +13,5 @@ def primes(number_of_primes):
             else:
                 prime_list.append(num)
     for x in range(number_of_primes):
-        list.append(prime_list(x))
-    return list
+        final_list.append(prime_list(x))
+    return final_list

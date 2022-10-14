@@ -13,5 +13,5 @@ def primes(number_of_primes):
             else:
                 prime_list.append(num)
     for x in range(number_of_primes):
-        final_list.append(prime_list(x))
+        final_list.append(prime_list[x])
     return final_list

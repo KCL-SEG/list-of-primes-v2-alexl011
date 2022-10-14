@@ -4,6 +4,8 @@
 def primes(number_of_primes):
     final_list = []
     prime_list = []
+    prime_list.clear()
+    final_list.clear()
     if number_of_primes <= 0:
         raise ValueError('Number in argument must be positive')
     for num in range(2, 1000):
